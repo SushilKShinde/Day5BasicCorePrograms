@@ -50,6 +50,13 @@ namespace C_Day5BasicCoreProgram
                     int num1 = Convert.ToInt32(Console.ReadLine());
                     EvenOrOdd.FindEvenOrOdd(num1);
                     break;
+                case 7:
+                    Console.WriteLine("Enter the fisrt integer");
+                    int number1 = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("Enter second integer");
+                    int number2 = Convert.ToInt32(Console.ReadLine());
+                    SwapNumber.SwapTwoNumbers(number1, number2);
+                    break;
                 default:
                     Console.WriteLine("Please choose a valid option");
                     break;
