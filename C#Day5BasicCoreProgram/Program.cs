@@ -58,6 +58,11 @@ namespace C_Day5BasicCoreProgram
                     int number2 = Convert.ToInt32(Console.ReadLine());
                     SwapNumber.SwapTwoNumbers(number1, number2);
                     break;
+                case 8:
+                    Console.WriteLine("Enter any alphabetical character");
+                    char character = Convert.ToChar(Console.ReadLine());
+                    VowelOrConsonant.CheckTheAlphabet(character);
+                    break;
                 default:
                     Console.WriteLine("Please choose a valid option");
                     break;
