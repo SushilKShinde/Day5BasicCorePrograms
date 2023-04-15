@@ -63,6 +63,15 @@ namespace C_Day5BasicCoreProgram
                     char character = Convert.ToChar(Console.ReadLine());
                     VowelOrConsonant.CheckTheAlphabet(character);
                     break;
+                case 9:
+                    Console.WriteLine("Enter first integer number");
+                    int firstNumber = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("Enter second integer number");
+                    int secondNumber = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("Enter third integer number");
+                    int thirdNumber = Convert.ToInt32(Console.ReadLine());
+                    BiggestNumber.FindBeggerNumber(firstNumber, secondNumber, thirdNumber);
+                    break;
                 default:
                     Console.WriteLine("Please choose a valid option");
                     break;
