@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Remoting.Metadata.W3cXsd2001;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -20,6 +21,11 @@ namespace C_Day5BasicCoreProgram
                 case 1:
                     Console.WriteLine("Coin is flipped 100 times ");
                     FlipCoin.FlipACoin();
+                    break;
+                case 2:
+                    Console.WriteLine("Enter a 4 digit year");
+                    int n = Convert.ToInt32(Console.ReadLine());
+                    LeapYear.CheckForLeapYear(n);
                     break;
                 default:
                     Console.WriteLine("Please choose a valid option");
