@@ -38,6 +38,13 @@ namespace C_Day5BasicCoreProgram
                     int num = Convert.ToInt32(Console.ReadLine());
                     HormonicNumber.FindHormonicNumber(num);
                     break;
+                case 5:
+                    Console.WriteLine("Enter the dividend value");
+                    int dividend = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("Enter the value of divisor");
+                    int divisor = Convert.ToInt32(Console.ReadLine());
+                    QuotientAndReminder.FindQuotientAndReminder(dividend, divisor);
+                    break;
                 default:
                     Console.WriteLine("Please choose a valid option");
                     break;
