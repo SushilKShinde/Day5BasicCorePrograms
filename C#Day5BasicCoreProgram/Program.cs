@@ -27,6 +27,12 @@ namespace C_Day5BasicCoreProgram
                     int n = Convert.ToInt32(Console.ReadLine());
                     LeapYear.CheckForLeapYear(n);
                     break;
+                case 3:
+                    Console.WriteLine("Enter a number upto  which power of 2 you want an answer");
+                    int m = Convert.ToInt32(Console.ReadLine());
+                    PowerOf2.FindPowerOf2(m);
+                    PowerOf2.TableOf2(m);
+                    break;
                 default:
                     Console.WriteLine("Please choose a valid option");
                     break;
