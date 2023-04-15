@@ -45,6 +45,11 @@ namespace C_Day5BasicCoreProgram
                     int divisor = Convert.ToInt32(Console.ReadLine());
                     QuotientAndReminder.FindQuotientAndReminder(dividend, divisor);
                     break;
+                case 6:
+                    Console.WriteLine("Enter the integer number");
+                    int num1 = Convert.ToInt32(Console.ReadLine());
+                    EvenOrOdd.FindEvenOrOdd(num1);
+                    break;
                 default:
                     Console.WriteLine("Please choose a valid option");
                     break;
