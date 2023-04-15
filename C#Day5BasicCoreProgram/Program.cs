@@ -33,6 +33,11 @@ namespace C_Day5BasicCoreProgram
                     PowerOf2.FindPowerOf2(m);
                     PowerOf2.TableOf2(m);
                     break;
+                case 4:
+                    Console.WriteLine("Enter a interger number: ");
+                    int num = Convert.ToInt32(Console.ReadLine());
+                    HormonicNumber.FindHormonicNumber(num);
+                    break;
                 default:
                     Console.WriteLine("Please choose a valid option");
                     break;
