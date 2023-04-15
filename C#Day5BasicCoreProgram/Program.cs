@@ -72,6 +72,11 @@ namespace C_Day5BasicCoreProgram
                     int thirdNumber = Convert.ToInt32(Console.ReadLine());
                     BiggestNumber.FindBeggerNumber(firstNumber, secondNumber, thirdNumber);
                     break;
+                case 10:
+                    Console.WriteLine("Enter a integer number");
+                    int number = Convert.ToInt32(Console.ReadLine());
+                    Factors.FindFactors(number);
+                    break;
                 default:
                     Console.WriteLine("Please choose a valid option");
                     break;
